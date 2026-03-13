@@ -1,0 +1,134 @@
+/* Daiichi Sankyo footer - dark theme */
+footer {
+  background-color: #1a1a2e;
+  color: #ccc;
+  font-size: var(--body-font-size-xs);
+}
+
+footer .footer-daiichi-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+footer .footer-daiichi-wrapper::before {
+  content: '';
+  display: block;
+  height: 4px;
+  background: linear-gradient(to right, #003da5, #0072ce, #00a3e0, #6cc24a);
+}
+
+footer .footer-daiichi {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+@media (width >= 900px) {
+  footer .footer-daiichi {
+    padding: 0 32px;
+  }
+}
+
+footer .footer-daiichi p {
+  margin: 0;
+}
+
+footer .footer-daiichi a:any-link {
+  color: #aab;
+  text-decoration: none;
+}
+
+footer .footer-daiichi a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Brand section */
+footer .footer-brand .default-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 0 24px;
+  border-bottom: 1px solid #333;
+}
+
+footer .footer-brand img {
+  max-height: 40px;
+  width: auto;
+}
+
+footer .footer-brand p:last-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Navigation columns */
+footer .footer-nav .default-content-wrapper {
+  padding: 32px 0;
+}
+
+footer .footer-nav .default-content-wrapper > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (width >= 600px) {
+  footer .footer-nav .default-content-wrapper > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  footer .footer-nav .default-content-wrapper > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 1200px) {
+  footer .footer-nav .default-content-wrapper > ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+footer .footer-nav .default-content-wrapper > ul > li {
+  margin-bottom: 8px;
+}
+
+footer .footer-nav .default-content-wrapper > ul > li strong {
+  color: #fff;
+  font-size: var(--body-font-size-s);
+  display: block;
+  margin-bottom: 12px;
+}
+
+footer .footer-nav .default-content-wrapper > ul > li ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-nav .default-content-wrapper > ul > li ul li {
+  margin-bottom: 8px;
+}
+
+/* Legal section */
+footer .footer-legal .default-content-wrapper {
+  border-top: 1px solid #333;
+  padding: 24px 0;
+  text-align: center;
+  color: #888;
+}
+
+footer .footer-legal a:any-link {
+  color: #aab;
+}
+
+footer .footer-legal .default-content-wrapper p:last-child {
+  margin-top: 8px;
+  font-size: 11px;
+}
