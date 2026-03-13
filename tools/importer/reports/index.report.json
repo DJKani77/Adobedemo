@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.daiichi-sankyo.de",
+  "path": "index",
+  "timestamp": "2026-03-13T07:20:52.039Z",
+  "title": "Home | Daiichi Sankyo Deutschland | Daiichi Sankyo",
+  "template": "homepage",
+  "blocks": [
+    "carousel-daiichi",
+    "embed-daiichi",
+    "cards-daiichi"
+  ]
+}

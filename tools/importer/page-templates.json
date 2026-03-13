@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.daiichi-sankyo.de"
+      ],
+      "description": "Daiichi Sankyo Germany corporate homepage with hero, news, therapy areas, and company information",
+      "blocks": [
+        {
+          "name": "carousel-daiichi",
+          "instances": [
+            "#frontSlider"
+          ]
+        },
+        {
+          "name": "embed-daiichi",
+          "instances": [
+            ".wrap-content-1000 > .frame-type-textmedia.frame-layout-TextmediaAsCard"
+          ]
+        },
+        {
+          "name": "cards-daiichi",
+          "instances": [
+            ".frame-type-columnsTwo"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Slider",
+          "selector": "main > .wrap-content-1280",
+          "style": null,
+          "blocks": [
+            "carousel-daiichi"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Company Info",
+          "selector": "main > .page__info--section-content",
+          "style": null,
+          "blocks": [
+            "embed-daiichi",
+            "cards-daiichi"
+          ],
+          "defaultContent": [
+            ".frame-type-textmedia.frame-layout-Textmedia"
+          ]
+        }
+      ]
+    }
+  ]
+}

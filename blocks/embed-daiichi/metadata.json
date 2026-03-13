@@ -1,0 +1,38 @@
+{
+  "variantName": "embed-daiichi",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-03-12T17:16:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.daiichi-sankyo.de",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "corporate-video",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "video URL + optional poster image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "corporate pages with video content",
+      "about pages with company videos",
+      "media pages with YouTube embeds"
+    ],
+    "notSuitableFor": [
+      "pages without video content",
+      "social media embed pages"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T17:16:00.000Z"
+  }
+}
